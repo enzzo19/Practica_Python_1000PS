@@ -5,12 +5,6 @@
 #separa la cadena por espacios y la vuelve a unir con un espacio entre cada letra y luego reemplaza los espacios por dos espacios 
 # para que quede un espacio entre cada letra
 
-#programa principal
-#cadena = input("ingrese una cadena: ")
-#print(ConvertirEspaciado(cadena))
-#assert ConvertirEspaciado("Hola, tú") == "H o l a , t ú "
-
-
 def ConvertirEspaciado(cadena):
     #join une los elementos de una lista con un separador y replace reemplaza un caracter por otro
     return " ".join(cadena).replace(" ", " ") # reemplaza los espacios por dos espacios para que quede un espacio entre cada letra
