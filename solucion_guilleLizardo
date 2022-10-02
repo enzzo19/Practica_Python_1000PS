@@ -1,0 +1,4 @@
+def ConvertirEspaciado(frase):
+  return " ".join(frase)
+
+ConvertirEspaciador(frase)
