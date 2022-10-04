@@ -5,9 +5,9 @@
 #separa la cadena por espacios y la vuelve a unir con un espacio entre cada letra y luego reemplaza los espacios por dos espacios 
 # para que quede un espacio entre cada letra
 
-def ConvertirEspaciado(cadena):
-    #join une los elementos de una lista con un separador y replace reemplaza un caracter por otro
-    return " ".join(cadena).replace(" ", " ") # reemplaza los espacios por dos espacios para que quede un espacio entre cada letra
+def convertirEspaciado(cadena):
+    cadena = cadena.replace(", ", ",") # reemplaza el espacio despues de la coma por nada
+    return " ".join(cadena).replace(" ", " ")
 
-print(ConvertirEspaciado("Hola, tú"))
+convertirEspaciado("Hola, tú") #  Output:  'H o l a , t ú'
 
