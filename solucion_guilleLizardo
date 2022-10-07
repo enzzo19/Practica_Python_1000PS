@@ -1,4 +1,6 @@
+frase = input("ingrese una frase: ")
 def ConvertirEspaciado(frase):
   return " ".join(frase)
+frase_espaciada = frase
 
-ConvertirEspaciador(frase)
+ConvertirEspaciado(frase_espaciada)
